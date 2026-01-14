@@ -17,13 +17,14 @@ public class DBConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
-            System.out.println("✅ DATABASE CONNECTED SUCCESSFULLY");
+            System.out.println(" DATABASE CONNECTED SUCCESSFULLY");
             return con;
         } catch (Exception e) {
-            System.out.println("❌ DATABASE CONNECTION FAILED");
+            System.out.println(" DATABASE CONNECTION FAILED");
             e.printStackTrace();
             return null;
         }
     }
 }
+
 
