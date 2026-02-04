@@ -1,0 +1,497 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f7f9;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+/* ENTRY PAGE */
+.entry-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry {
+    text-align: center;
+}
+
+.entry h1 {
+    font-size: 64px;
+    margin-bottom: 30px;
+    color: #1e3a8a;
+}
+
+/* BUTTON */
+.btn {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1f2933;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #1e3a8a;
+}
+
+/* AUTH BUTTONS */
+.auth-buttons a {
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.login {
+    color: #1e3a8a;
+}
+
+.signup {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e5e7eb;
+}
+/* AUTH PAGE LAYOUT */
+.auth-body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f7fa;
+}
+
+/* BIG AUTH BOX */
+.auth-box {
+    width: 450px;
+    padding: 35px 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* TITLE */
+.auth-box .title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-bottom: 5px;
+}
+
+.auth-box .subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* FORM */
+.auth-box label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.auth-box input,
+.auth-box select {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* BUTTON */
+.auth-box button {
+    width: 100%;
+    padding: 12px;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-box button:hover {
+    background: #163172;
+}
+
+/* MESSAGE */
+.msg {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+/* FOOT LINK */
+.auth-box .switch {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.auth-box .switch a {
+    color: #1e3a8a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 30px auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b5ed7;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+}
+
+a {
+    text-decoration: none;
+}
+/* ================= DASHBOARD ROW BLOCK ================= */
+/* ================= DASHBOARD GRID ================= */
+.action-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* ================= ACTION TILE ================= */
+.action-tile {
+    background: linear-gradient(135deg, #ffffff, #f8fafc);
+    padding: 36px;
+    border-radius: 16px;
+    box-shadow: 0 16px 30px rgba(0,0,0,0.1);
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.action-tile:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 22px 40px rgba(0,0,0,0.15);
+}
+
+.action-tile h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #111827;
+}
+
+.action-tile p {
+    margin: 12px 0 28px;
+    color: #6b7280;
+    font-size: 15px;
+}
+
+
+
+
+/* ================= TILE BUTTON ================= */
+.tile-btn {
+    padding: 12px 28px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background: #4f46e5;
+    color: white;
+}
+
+/* ================= HEADER ================= */
+.header {
+    background: #0f172a;
+    color: white;
+    padding: 28px 40px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.header .welcome {
+    margin-top: 6px;
+    font-size: 15px;
+    color: #c7d2fe;
+}
+
+.header .role {
+    margin-top: 2px;
+    font-size: 15px;
+    color: #94a3b8;
+}
+
+/* ===== MINIMAL WHITE ENTRY PAGE ===== */
+
+.entry-body {
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container */
+.entry-wrapper {
+    text-align: center;
+    padding: 60px 70px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+/* Title */
+.entry-wrapper h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1f2937; /* dark grey */
+    margin-bottom: 14px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 1rem;
+    color: #6b7280; /* grey */
+    margin-bottom: 38px;
+    max-width: 420px;
+}
+
+/* Button */
+.btn-start {
+    display: inline-block;
+    padding: 12px 36px;
+    background: #2563eb; /* SAME BLUE as project */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.btn-start:hover {
+    background: #1e40af;
+}
+.navbar {
+    background: #ffffff;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1d4ed8;
+}
+
+.nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #374151;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1d4ed8;
+}
+
+/* Highlight Login */
+.nav-links a[href*="login"] {
+    color: #1d4ed8;
+    font-weight: 600;
+}
+
+/* Highlight Sign Up */
+.btn-signup {
+    padding: 8px 18px;
+    background: #1d4ed8;
+    color: #ffffff !important;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn-signup:hover {
+    background: #1e40af;
+}
+.hero {
+    min-height: 60vh;
+    background: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #6b7280;
+}
+.about, .services {
+    padding: 70px 15%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.about h2,
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 16px;
+    color: #4b5563;
+}
+
+.services p {
+    margin-bottom: 20px;
+    color: #4b5563;
+}
+
+.services ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.services li {
+    font-size: 16px;
+    padding: 10px 0;
+}
+.footer {
+    background: #f1f5f9;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+
+
